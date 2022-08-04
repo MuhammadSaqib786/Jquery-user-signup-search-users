@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="YOURNAMEHERE" />
+    <title>YOURTITLEHERE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/site.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div>
+        <form action="/createaccount" method="post" id="myform">
+            <fieldset>
+                <table>
+                    <tr>
+                        <td>User Name</td>
+                        <td><input type="text" id="uname" /></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" id="password" /></td>
+                    </tr>
+                    <tr>
+                        <td>Confirm Password</td>
+                        <td><input type="password" id="cpassword" /></td>
+                    </tr>
+                    <tr>
+                        <td>Date of Birth</td>
+                        <td><input type="date" id="dob" /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input  type="checkbox" id="terms"  >
+                            </td>
+                            <td>
+                            I agree to  the Terms of Service</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" value="Sign up " id="btnSubmit" /></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+        <div id="message">
+
+        </div>
+    </div>
+    <br>
+    <button id="short">Short Usernames</button>
+    <button id="long">Long Usernames</button>
+    <button id="reset">Reset</button>
+    <table id="data">
+        <thead>
+            <th>Username</th>
+            <th>Password Length</th>
+            <th>Date of Birth</th>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    
+    
+    <script type="text/javascript" src="https://releases.jquery.com/git/jquery-git.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>

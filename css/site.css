@@ -1,0 +1,28 @@
+#user {
+    border: 1px solid #000;
+}
+
+tr {
+    border: 1px solid #000;
+}
+
+th,
+td {
+    position: relative;
+    padding: 10px 24px;
+}
+
+th.ascending::after {
+    content: '\25BC';
+    position: absolute;
+    right: 0;
+}
+
+th.descending::after {
+    content: '\25B2';
+    position: absolute;
+    right: 0;
+}
+#message{
+    color: red;
+}
